@@ -3,7 +3,7 @@ import qianfan
 import re
 
 # 定义文件路径
-credentials_file_path = '../secret.txt'
+credentials_file_path = '../baidu_secret.txt'
 
 # 初始化字典来存储密钥
 credentials = {}

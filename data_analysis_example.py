@@ -15,7 +15,7 @@ pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
 
 # 调用千帆大模型，进行综合题的判断
-credentials_file_path = '../secret.txt'
+credentials_file_path = '../baidu_secret.txt'
 
 # 初始化字典来存储密钥
 credentials = {}
@@ -178,7 +178,7 @@ def calculate_accuracy(answers_json):
 
                 for answer in summary_answers:
                     if answer['id'] == question_id:  # 匹配 ID
-                        model_answer = keep_only_letters(answer['answers'].strip())  # 去除前后空格
+                        model_answer = keep_only_letters(answer['answers'].strip())  # 去除前后空格，并且进行模糊匹配，将abcd匹配出来
                         # 使用 token_sort_ratio 进行模糊匹配
                         similarity_score = fuzz.token_sort_ratio(correct_answer, model_answer)
                         if similarity_score > 67:  # 进行模糊匹配,如果ai进行多选，那么也可以判断出来
@@ -493,8 +493,8 @@ def num_different(num_ans):
         print(f"{df_summary}")
 
 
-answers_json = ["baidu_only_answers_example.json", "Hunyuan_only_answers_example.json"]  # 多个json
-respond_json = ["baidu_different_answers_example.json","hunyuan_different_answers_example.json"]
+answers_json = ["baidu_only_answers_example.json", "Hunyuan_only_answers_example.json", "Doubao_only_Answers_example.json"]  # 多个json
+respond_json = ["baidu_different_answers_example.json","hunyuan_different_answers_example.json", "Doubao_different_answers_example.json"]
 questions_json = 'question_example.json'
 comparison_results = compare_json_accuracy(answers_json)  # 正确率比较
 time_comparison_results = compare_time(answers_json)  # 时间比较

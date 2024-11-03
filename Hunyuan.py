@@ -30,7 +30,7 @@ def hunyuan1(input_json,output_json):
         description_list = question_item["Description"]
         ID = question_item["id"]
         for item in description_list:
-                prompt = item['Qu'] + "\n 如上是完整的题目，请只给出答案，不需要分析 \n"
+                prompt = item['Qu'] + "\n 如上是完整的题目，如果是选择填空请只给出答案，不需要分析 \n"
 
                 picture = item.get('picture')
                 print(f"\n提问: {prompt}")
