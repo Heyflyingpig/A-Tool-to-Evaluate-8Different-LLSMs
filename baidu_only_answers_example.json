@@ -1,0 +1,218 @@
+[
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n已知集合M={x|-4<x<2}，N={x|x^2-x-6< 0}，则M∩N = () A．{x|-4<x<3}\tB．{x|-4<x< 2}\tC．{x|-2<x<2}\tD．{x|2<x<3}  如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-6fjkitgy42",
+            "object": "chat.completion",
+            "created": 1730445894,
+            "result": "答案为 C．{x|-2<x<2}。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 114,
+                "completion_tokens": 13,
+                "total_tokens": 127
+            }
+        },
+        "response_time": 3.3243677616119385,
+        "id": 1
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n古希腊时期，人们认为最美人体的头顶至肚脐的长度与肚脐至足底的长度之比是:$a = \\log_{2} 0.2$,b=2^0.2,c=0.2^0.3（a<b<c≈0.618，称为黄金分割比例)，著名的“断臂维纳斯”便是如此．此外，最美人体的头顶至咽喉的长度与咽喉至肚脐的长度之比也是a<c<b．若某人满足上述两个黄金分割比例，且腿长为105 cm，头顶至脖子下端的长度为26 cm，则其身高可能是A. 165 cm B. 175 cm C. 185 cm D. 190cm如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-qtufznk4n4",
+            "object": "chat.completion",
+            "created": 1730445895,
+            "result": "答案选 C。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 188,
+                "completion_tokens": 4,
+                "total_tokens": 192
+            }
+        },
+        "response_time": 1.637404441833496,
+        "id": 2
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n已知椭圆 \\( C \\) 的焦点为 \\( F_1(-1,0)，F_2(1,0) $，过 \\( F_2 $ 的直线与 \\( C $ 交于 \\( A $，$ B $ 两点．若 \\( |AF_2| = 2|F_2B| $，\\( |AB| = |BF_1| $，则 \\( C $ 的方程为\n\\[ \\begin{cases}\n    \\frac{x^2}{2} + y^2 = 1 \\\\\n    \\frac{x^2}{3} + \\frac{y^2}{2} \\\\\n    \\frac{x^2}{4} + \\frac{y^2}{3} \\\\\n    \\frac{x^2}{5} + \\frac{y^2}{4}\n\\end{cases} \\]\nA．$\\frac{x^2}{2} + y^2 = 1$ & B．$\\frac{x^2}{3} + \\frac{y^2}{2}$ & C．$\\frac{x^2}{4} + \\frac{y^2}{3}$ & D．$\\frac{x^2}{5} + \\frac{y^2}{4}$\"\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-epxum2ap5m",
+            "object": "chat.completion",
+            "created": 1730445897,
+            "result": "答案是 A．$\\frac{x^2}{2} + y^2 = 1$。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 305,
+                "completion_tokens": 21,
+                "total_tokens": 326
+            }
+        },
+        "response_time": 1.7210991382598877,
+        "id": 3
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n已知三棱锥 \\( P -ABC $ 的四个顶点在球 \\( O $ 的球面上，\\( PA = PB = PC $，△\\( ABC $ 是边长为 \\( 2 $ 的正三角形，\\( E $，\\( F $ 分别是 \\( PA $，\\( PB $ 的中点，∠\\( CEF $=90°，则球 \\( O $ 的体积为\n\\[ \\begin{cases}\n    8\\sqrt{6}\\pi \\\\\n    4\\sqrt{6}\\pi \\\\\n    2\\sqrt{6}\\pi \\\\\n    \\sqrt{6}\\pi\n\\end{cases} \\]\nA．$8\\sqrt{6}\\pi$ & B．$4\\sqrt{6}\\pi$ & C．$2\\sqrt{6}\\pi$ & D．$\\sqrt{6}\\pi$\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-6adf6b9qpj",
+            "object": "chat.completion",
+            "created": 1730445899,
+            "result": "答案是：D．$\\sqrt{6}\\pi$。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 208,
+                "completion_tokens": 12,
+                "total_tokens": 220
+            }
+        },
+        "response_time": 1.6565093994140625,
+        "id": 4
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n13．曲线 \\( y = 3(x^2 + x)e^{-x} $ 在点 $(0,0)$ 处的切线方程为 ____________．如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-y1sgsj4t19",
+            "object": "chat.completion",
+            "created": 1730445900,
+            "result": "答案：$y = - 2x$",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 66,
+                "completion_tokens": 10,
+                "total_tokens": 76
+            }
+        },
+        "response_time": 1.120171308517456,
+        "id": 5
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n14．记 \\( S_n $ 为等比数列 $\\left\\{a_n\\right\\}$ 的前 \\( n $ 项和． 若 \\( a_1=\\frac{1}{3} $， \\( a_4^2=a_6 $， 则 \\( S_5=$______________．如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-sqsv1y2gh0",
+            "object": "chat.completion",
+            "created": 1730445902,
+            "result": "答案：$\\frac{69}{6} \\quad 或者 \\quad -\\frac{4}{5}$",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 94,
+                "completion_tokens": 22,
+                "total_tokens": 116
+            }
+        },
+        "response_time": 1.8482639789581299,
+        "id": 6
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n甲、乙两队进行篮球决赛，采取七场四胜制（当一队赢得四场胜利时，该队获胜，决赛  \n结束）．根据前期比赛成绩，甲队的主客场安排依次为“主主客客主客主”．设甲队主场取\n胜的概率为0.6，客场取胜的概率为0.5，且各场比赛结果相互独立，则甲队以4∶1获胜的概\n率是____________\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-wmrfgkek3s",
+            "object": "chat.completion",
+            "created": 1730445904,
+            "result": "答案：甲队以4∶1获胜的概率是$0.6 \\times 0.5 \\times 0.5 \\times 0.5 \\times 0.4 = 0.03$。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 127,
+                "completion_tokens": 47,
+                "total_tokens": 174
+            }
+        },
+        "response_time": 2.772228479385376,
+        "id": 7
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n16．已知双曲线 \\( C $：$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1(a>0,b>0)$ 的左、右焦点分别为 \\( F_1 $，\\( F_2 $，过 \\( F_1 $ 的直线与 \\( C $ 的两条渐近线分别交于 \\( A $，\\( B $ 两点．若 \\( \\overrightarrow{{F}_{1}A}=\\overrightarrow{AB} $，\\( \\overrightarrow{{F}_{1}B}⋅\\overrightarrow{{F}_{2}B}=0 $，则 \\( C $ 的离心率为 ____________．\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-844j0murva",
+            "object": "chat.completion",
+            "created": 1730445905,
+            "result": "答案：$\\frac{\\sqrt{6}}{3}$",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 172,
+                "completion_tokens": 11,
+                "total_tokens": 183
+            }
+        },
+        "response_time": 1.0124471187591553,
+        "id": 8
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n17．$\\triangle ABC $ 的内角 \\( A $，\\( B $，\\( C $ 的对边分别为 \\( a $，\\( b $，\\( c $， 设\n\\[ (\\sin B-\\sin C)^2=sin^2 A-sin B sin C $．\n\\[ （1）求 \\( A $；\n\\[ （2）若 $\\sqrt{2a+b}=2c $， 求 \\( sin C $.\n\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-cqhcxu3fqt",
+            "object": "chat.completion",
+            "created": 1730445913,
+            "result": "（1）根据题目给出的条件，可以求出角A的大小为$A = \\frac{\\pi}{3}$。这是因为根据正弦定理和余弦定理的关系式推导得出。由于条件方程，将等式转化为$\\cos C \\cdot \\cos B + \\sin C \\cdot \\sin B = \\frac{1}{2}$，然后利用三角函数的和差公式化简得到$\\cos A = \\frac{1}{2}$，因此可以推出$A = \\frac{\\pi}{3}$。\n（2）对于条件$\\sqrt{2a+b}=2c$，根据正弦定理将其转化为正弦形式，即$\\sqrt{2\\sin A\\cos B+\\sin B}=\\sin C$。已知$\\sin A=\\frac{\\sqrt{3}}{2}$，因此我们可以得到$\\sin C=\\frac{\\sqrt{2}}{2}$。所以答案是：$\\sin C=\\frac{\\sqrt{2}}{2}$。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 125,
+                "completion_tokens": 197,
+                "total_tokens": 322
+            }
+        },
+        "response_time": 8.582555055618286,
+        "id": 9
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n19．已知抛物线 \\( C $：$y^2=3x$ 的焦点为 \\( F $， 斜率为$-\\frac{3}{2}$ 的直线 \\( l $ 与 \\( C $ 的交点为 \\( A $，\\( B $， 与x轴的交点为 \\( P $．\n\\[ （1）若 \\( |AF|+|BF|=4 $，求 \\( l $ 的方程；\n\\[ （2）若 $\\overrightarrow{AP}=3\\overrightarrow{PB}$， 求 \\( |AB|$．\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-e2r5p9yjcv",
+            "object": "chat.completion",
+            "created": 1730445926,
+            "result": "答案如下：\n（1）直线 $l$ 的方程为 $y = -\\frac{3}{2}(x - \\frac{1}{4})$ 或 $y = -\\frac{3}{2}x + \\frac{3}{2}$。\n（2）由于 $\\overrightarrow{AP}=3\\overrightarrow{PB}$，设点 $A$ 到 $x$ 轴的距离为 $h$，则点 $B$ 到 $x$ 轴的距离为 $\\frac{h}{3}$。根据抛物线性质得 $|AF| = \\frac{h}{\\sqrt{m}} + \\frac{p}{2}$， $|BF| = \\frac{\\frac{h}{3}}{\\sqrt{m}} + \\frac{p}{2}$。因此 $|AB| = \\frac{h}{\\sqrt{m}} + \\frac{\\frac{h}{3}}{\\sqrt{m}} = \\frac{4h}{3\\sqrt{m}}$。利用抛物线的焦点弦长公式 $|AB| = \\frac{2p}{\\sqrt{(k^2)^2 + k^2}}$，其中 $k$ 为直线斜率，解得 $|AB| = \\frac{\\sqrt{3}}{4}$。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 142,
+                "completion_tokens": 254,
+                "total_tokens": 396
+            }
+        },
+        "response_time": 11.637444972991943,
+        "id": 10
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n20．已知函数 \\( f(x)=sin x-ln(1+x) $， \\( f'(x) $ 为 \\( f(x) $ 的导数．证明：\n\\[ （1）f'(x) $ 在区间$ (-1,\\frac{\\pi}{2}) $存在唯一极大值点；\n\\[ （2）\\( f(x) $有且仅有2个零点．\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-wapp7stru0",
+            "object": "chat.completion",
+            "created": 1730445934,
+            "result": "答案：\n（1）证明过程如下：首先求出函数 \\( f(x)=sin x-ln(1+x) \\) 的导数 \\( f'(x) \\)，然后分析其在区间 \\( (-1,\\frac{\\pi}{2}) \\) 上的性质。通过分析导数 \\( f'(x) \\) 的单调性和符号变化，可以证明 \\( f'(x) \\) 在该区间存在唯一极大值点。\n（2）根据函数 \\( f(x)=sin x-ln(1+x) \\) 的性质和图像，结合零点存在定理，可以证明函数 \\( f(x) \\) 在定义域内有且仅有两个零点。可以通过分析函数的单调性和导数的符号变化来得出结论。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 117,
+                "completion_tokens": 144,
+                "total_tokens": 261
+            }
+        },
+        "response_time": 7.857025861740112,
+        "id": 11
+    },
+    {
+        "question": "如下是完整的题目，如果是选择题和填空题，请只给出答案 \n21．为了治疗某种疾病，研制了甲、乙两种新药，希望知道哪种新药更有效，为此进行动物试验．试验方案如下：每一轮选取两只白鼠对药效进行对比试验．对于两只白鼠，随机选一只施以甲药，另一只施以乙药．一轮的治疗结果得出后，再安排下一轮试验．当其中一种药治愈的白鼠比另一种药治愈的白鼠多4只时，就停止试验，并认为治愈只数多的药更有效．为了方便描述问题，约定：对于每轮试验，若施以甲药的白鼠治愈且施以乙药的白鼠未治愈则甲药得1分，乙药得−1分；若施以乙药的白鼠治愈且施以甲药的白鼠未治愈则乙药得1分，甲药得−1分；若都治愈或都未治愈则两种药均得0分．甲、乙两种药的治愈率分别记为 \\( α $和 \\( β $，一轮试验中甲药的得分记为 \\( X $．\n\\[ （1）求 \\( X $的分布列；\n\\[ （2）若甲药、乙药在试验开始时都赋予4分， \\( p_i(i=0,1,…,8) $表示“甲药的累计得分为 \\( i $时最终认为甲药比乙药更有效”的概率，则 \\( p_0=0 $， \\( p_8=1 $， \\( p_i=aP(X=-1)+bP(X=0)+cP(X=1) $（\\( i=1,2,…,7），其中 \\( a=P(X=-1)， \\( b=P(X=0)， \\( c=P(X=1) $．假设 \\( α=0.5 $， \\( β=0.8 $．\n\\[ （i）证明： \\( {p}_{i+1}-{p}_{i}(i=0,1,2,…,7) $为等比数列；\n\\[ （ii）求 \\( p_4 $，并根据 \\( p_4 $的值解释这种试验方案的合理性．\n如上是完整的题目，请只给出答案，不需要分析 \n",
+        "answer": {
+            "id": "as-ik9cwpd8i4",
+            "object": "chat.completion",
+            "created": 1730445949,
+            "result": "（1）根据题意，X的分布列为：甲药治愈得分为正，乙药治愈得分为负的情况，因此可能的取值为-1、0、1。对应的概率分别为：P(X=-1)=β(白鼠乙治愈的概率)，P(X=0)=αβ+βα（两种药都治愈或都未治愈的概率），P(X=1)=α（白鼠甲治愈的概率）。所以X的分布列为：X=-1时，P=β；X=0时，P=αβ+βα；X=1时, P=α。\n（ii）(i)证明过程：由递推公式p_{i+1}-p_{i}=a(-p_{i})+bp_{i}+cp_{i-1}，可以得到p_{i+1}-p_{i}=-bp_{i}+cp_{i-1}，其中a=-p_{i}，b=-p_{i}，c=p_{i}，则可得比例为定值。由此可证明数列${p_{i+1}-{p}_{i}(i=0,1,2,…,7)}$为等比数列。证明过程中还需要考虑甲乙两药的实际治愈率概率情况； \n    (ii)对于甲药在连续三次试验中得分为正的概率为α³，得分为负的概率则为β³。由于α>β，那么累积得分的增长速度显然会比被逆转的速度更快。随着试验的进行，大部分情况下得分为正的试验会越来越远。而当试验结果处于均匀随机或者倒转的可能性大大减少的情况下进行奖励点得分的结果公平显示较合理的试验方案，故根据题意所求$p_4$值较为合理。",
+            "is_truncated": false,
+            "need_clear_history": false,
+            "usage": {
+                "prompt_tokens": 470,
+                "completion_tokens": 346,
+                "total_tokens": 816
+            }
+        },
+        "response_time": 15.717395305633545,
+        "id": 12
+    }
+]
