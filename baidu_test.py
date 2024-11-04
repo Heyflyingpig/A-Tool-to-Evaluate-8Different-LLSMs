@@ -47,8 +47,10 @@ cleaned_matches = [match.strip() for match in matches]
 # 存储解法的列表
 solutions = cleaned_matches
 # 计算解法的数量
+
 num_solutions = len(solutions)
 print(num_solutions)
 print(solutions)
+
 
 

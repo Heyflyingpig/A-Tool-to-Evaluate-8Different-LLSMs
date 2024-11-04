@@ -178,10 +178,15 @@ def calculate_accuracy(answers_json):
 
                 for answer in summary_answers:
                     if answer['id'] == question_id:  # 匹配 ID
-                        model_answer = keep_only_letters(answer['answers'].strip())  # 去除前后空格，并且进行模糊匹配，将abcd匹配出来
-                        # 使用 token_sort_ratio 进行模糊匹配
+                        model_answer_clear = answer['answers'].strip()  # 先只去除空格，不要立即过滤字母
+                        if "【答案】" in model_answer_clear:
+                            # 分割并获取答案部分，然后去除换行符并保留字母
+                            model_answer = keep_only_letters(model_answer_clear.split("【答案】")[1].strip())
+                        else:
+                            model_answer = keep_only_letters(model_answer_clear)
+                        # 现在 model_answer 应该只包含答案字母（如"C"）
                         similarity_score = fuzz.token_sort_ratio(correct_answer, model_answer)
-                        if similarity_score > 67:  # 进行模糊匹配,如果ai进行多选，那么也可以判断出来
+                        if similarity_score > 50:  # 进行模糊匹配,如果ai进行多选，那么也可以判断出来
                             selection_score += 1
                             difficulty_scores[difficulty]['correct'] += 1
                             matching_results.append({
@@ -190,6 +195,8 @@ def calculate_accuracy(answers_json):
                                 'correct_answer': correct_answer,
                                 'similarity_score': similarity_score
                             })
+                        else:
+                            print("\n答案错误",model_answer,correct_answer)
             # 如果是填空题
             elif "answers" in question:
                 gap_len += 1
@@ -198,8 +205,14 @@ def calculate_accuracy(answers_json):
                 difficulty_scores[difficulty]['total'] += 1
                 for answer in summary_answers:
                     if answer['id'] == question_id:  # 匹配 ID
-                        model_answer = answer['answers'].strip()  # 去除前后空格
-                        # 使用 token_sort_ratio 进行模糊匹配
+                        model_answer_clear = answer['answers'].strip()  # 先只去除空格，不要立即过滤字母
+                        if "【答案】" in model_answer_clear:
+                            # 分割并获取答案部分，然后去除换行符并保留字母
+                            model_answer = model_answer_clear.split("【答案】")[1].strip()
+                        else:
+                            model_answer = model_answer_clear
+                        # 现在 model_answer 应该只包含答案字母（如"C"）
+                        
                         similarity_score = fuzz.token_sort_ratio(correct_answer, model_answer)
                         if similarity_score > 50:
                             difficulty_scores[difficulty]['correct'] += 1
@@ -210,6 +223,8 @@ def calculate_accuracy(answers_json):
                                 'correct_answer': correct_answer,
                                 'similarity_score': similarity_score   # 近似度
                             })
+                        else:
+                            print("\n答案错误",model_answer,correct_answer)
             # 如果是综合题
             elif "Com_answers" in question:
                 com_len += 1
@@ -255,14 +270,7 @@ def calculate_accuracy(answers_json):
                     question.get("Com_answers", None) or
                     question.get("Selection_answers", None) or
                     question.get("answers", None)
-            )
-
-            # 如果correct_answer不是None，则去除首尾空格
-            if correct_answer is not None:
-                correct_answer = correct_answer.strip()
-            else:
-                # 如果两个键都不存在，可以设置一个默认值或者进行其他处理
-                correct_answer = "No answer provided"  # 去除前后空格
+            ).strip()
 
             difficulty_scores[difficulty]['total'] += 1  # 难度库总值加一
             for answer in summary_answers:
@@ -278,12 +286,11 @@ def calculate_accuracy(answers_json):
                     print("\n多解模型加载...")
                     resp = chat_comp.do(model="ERNIE-Speed-128K", messages=[{
                         "role": "user",
-                        "content": "以下是某一道数学题的答案，前一份是正确答案，后一份是给出的多解回答，请遵循以下标准："
-                                   "比较答案和多解回答：如果答案和多解的回答每一个回答的内容基本一致，且大多数重要步骤和结果都正确输出‘麦’，"
-                                   "如果表示答案和多解回答在某些重要步骤或某一个解上存在明显的不同或错误请输出‘肯’，"
-                                   "如果无法判断正确或者错误请输出‘劳’"
-                                   "请注意，我只希望在你的回答中出现‘麦’，‘肯’，‘劳’这三个字符之一，而不要出现其他分析 \n" + answer_correct + "\n " + answer_model
-
+                        "content": "以下是某一道数学题的答案，前一份是正确答案，后一份是给出的多解回答，请严格遵循以下标准："
+                                   "1. 必须每个解法都完全正确才输出'麦'"
+                                   "2. 如果任何一个解法有错误或重要步骤缺失输出'肯'"
+                                   "3. 如果无法判断输出'劳'"
+                                   "请注意，我只希望看到'麦'，'肯'，'劳'这三个字符之一\n" + correct_answer + "\n " + answer_model
                     }])
                     print("多解模型结束加载")
                     answer = resp["body"]
