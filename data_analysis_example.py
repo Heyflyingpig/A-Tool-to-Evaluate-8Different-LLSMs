@@ -500,8 +500,12 @@ def num_different(num_ans):
         print(f"{df_summary}")
 
 
-answers_json = ["baidu_only_answers_example.json", "Hunyuan_only_answers_example.json", "Doubao_only_Answers_example.json"]  # 多个json
-respond_json = ["baidu_different_answers_example.json","hunyuan_different_answers_example.json", "Doubao_different_answers_example.json"]
+answers_json = ["baidu_only_answers_example.json", "Hunyuan_only_answers_example.json", "Doubao_only_Answers_example.json",
+                 "zhipu_only_answers_example.json","aliyun_only_answers_example.json","google_only_answers_example.json","meta_only_answers_example.json"]  # 多个json
+
+respond_json = ["baidu_different_answers_example.json","hunyuan_different_answers_example.json", "Doubao_different_answers_example.json",
+                 "zhipu_different_answers_example.json","aliyun_different_answers_example.json","google_different_answers_example.json","meta_different_answers_example.json"]
+
 questions_json = 'question_example.json'
 comparison_results = compare_json_accuracy(answers_json)  # 正确率比较
 time_comparison_results = compare_time(answers_json)  # 时间比较

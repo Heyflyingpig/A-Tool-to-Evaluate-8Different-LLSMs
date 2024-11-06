@@ -80,7 +80,7 @@ def aliyun2(input_json_path, output_json_path):
         ID = question_item.get("id")
 
         for item in description_list:
-            prompt = "如下有一道题目，请一题多解该题目，每个解之间请用换行符分开：\n" + item['Qu']
+            prompt = "如下有一道题目，请一题多解该题目，每个解之间请用换行符分开,并在开头注明解法几：\n" + item['Qu']
 
             print(f"\n提问: {prompt}")
             start_time = time.time()
@@ -96,7 +96,8 @@ def aliyun2(input_json_path, output_json_path):
             end_time = time.time()           
             response_time = end_time - start_time
 
-            pattern = re.compile(r'(解法[一二三四五六七八九十]+：.*?)(?=\n\n解法|$)', re.DOTALL)
+            # 修改正则表达式以匹配更多格式的解法标记
+            pattern = re.compile(r'([#\s]*解法[一二三四五六七八九十]+[：:]\s*.*?)(?=\n\n[#\s]*解法|$)', re.DOTALL)
             matches = pattern.findall(answer)
             cleaned_matches = [match.strip() for match in matches]
             solutions = cleaned_matches
