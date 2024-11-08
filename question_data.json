@@ -45,7 +45,7 @@
         {
             "id": 4,
             "year": 2019,
-            "difficulty": "hard",
+            "difficulty": "ha",
             "type": "choice",
             "number": "N12",
             "Source": "新课标1",
@@ -129,7 +129,7 @@
         {
             "id": 10,
             "year": 2019,
-            "difficulty": "ez",
+            "difficulty": "av",
             "type": "comprehensive",
             "number": "N19  ",
             "Source": "新课标1",
@@ -213,7 +213,7 @@
         {
             "id": 16,
             "year": 2019,
-            "difficulty": "hard",
+            "difficulty": "ha",
             "type": "choice",
             "number": "N12",
             "Source": "新课标2",
@@ -382,7 +382,7 @@
         {
             "id": 28,
             "year": 2019,
-            "difficulty": "hard",
+            "difficulty": "ha",
             "type": "choice",
             "number": "N12",
             "Source": "新课标1",
@@ -535,7 +535,7 @@
             "An": "C"
         },
         {
-            "id": 37,
+            "id": 39,
             "year": 2020,
             "difficulty": "me",
             "type": "choice",
@@ -549,9 +549,9 @@
             "An": "c"
         },
         {
-            "id": 38,
+            "id": 40,
             "year": 2020,
-            "difficulty": "hard",
+            "difficulty": "ha",
             "type": "choice",
             "number": "N12",
             "Source": "新课标2",
@@ -563,7 +563,7 @@
             "An": "C"
         },
         {
-            "id": 39,
+            "id": 41,
             "year": 2020,
             "difficulty": "ez",
             "type": "gap",
@@ -577,7 +577,7 @@
             "An": "\\frac{\\sqrt{2}}{2}"
         },
         {
-            "id": 40,
+            "id": 42,
             "year": 2020,
             "difficulty": "av",
             "type": "gap",
@@ -591,7 +591,7 @@
             "An": "36"
         },
         {
-            "id": 41,
+            "id": 43,
             "year": 2020,
             "difficulty": "me",
             "type": "gap",
@@ -605,7 +605,7 @@
             "An": "2 \\sqrt{2}"
         },
         {
-            "id": 42,
+            "id": 44,
             "year": 2020,
             "difficulty": "ha",
             "type": "gap",
@@ -616,10 +616,10 @@
                     "Qu": "\n                            ### 16. 设有下列四个命题:\n$p_1$: 两两相交且不过同一点的三条直线必在同一平面内.\n$p_2$: 过空间中任意三点有且仅有一个平面.\n$p_3$: 若空间两条直线不相交,则这两条直线平行.\n$p_4$: 若直线l平面a，直线m平面a，则ml.\n则下述命题中所有真命题的序号是\n① $p_1 \\wedge p_4$ ② $p_1 \\wedge p_2$ ③ $\\neg p_2 \\vee p_3$ ④ $\\neg p_3 \\vee \\neg p_4$\n                            "
                 }
             ],
-            "An": "①③④"
+            "An": "①③④(第一个命题，第三个命题，第四个命题)"
         },
         {
-            "id": 43,
+            "id": 45,
             "year": 2020,
             "difficulty": "ez",
             "type": "comprehensive",
@@ -633,7 +633,7 @@
             "An": "$$\\text{答案:}(1) \\frac{2\\pi}{3}; \\quad (2) 3 + 2\\sqrt{3}.$$\n                    "
         },
         {
-            "id": 44,
+            "id": 46,
             "year": 2020,
             "difficulty": "av",
             "type": "comprehensive",
@@ -647,7 +647,7 @@
             "An": "(1)12000；（2）0.94．(3)由于各地块间植物覆盖面积差异较大，为提高样本数据的代表性，应采用分层抽样\n先将植物覆盖面积按优中差分成三层，\n在各层内按比例抽取样本，\n在每层内用简单随机抽样法抽取样本即可\n                    "
         },
         {
-            "id": 45,
+            "id": 47,
             "year": 2020,
             "difficulty": "me",
             "type": "comprehensive",
@@ -661,7 +661,7 @@
             "An": "$$(1) \\frac{1}{2}; \\quad (2) C_{1}: \\frac{x^{2}}{36} + \\frac{y^{2}}{27} = 1, C_{2}: y^{2} = 12x.$$\n            "
         },
         {
-            "id": 46,
+            "id": 48,
             "year": 2020,
             "difficulty": "ha",
             "type": "comprehensive",
@@ -673,6 +673,1080 @@
                 }
             ],
             "An": "\n  [详解(1)由函数的解析式可得:  $f(x)=2\\\\sin^3 x\\\\cos x$  ,则:\n\n$$f'(x)=2\\\\left(3\\\\sin^2 x\\\\cos^2 x-\\\\sin^4 x\\\\right)=2\\\\sin^2 x\\\\left(3\\\\cos^2 x-\\\\sin^2 x\\\\right)$$\n$$=2\\\\sin^2 x\\\\left(4\\\\cos^2 x-1\\\\right)=2\\\\sin^2 x(2\\\\cos x+1)(2\\\\cos x-1),$$\n$$f'(x)=0\\\\text{在} x\\\\in(0,\\\\pi)\\\\text{上的根为:} x_1=\\\\frac{\\\\pi}{3}, x_2=\\\\frac{2\\\\pi}{3},$$\n\n当  $x\\\\in\\\\left(0,\\\\frac{\\\\pi}{3}\\\\right)$  时,  $f'(x)>0, f(x)$  单调递增,\n\n当  $x\\\\in\\\\left(\\\\frac{\\\\pi}{3},\\\\frac{2\\\\pi}{3}\\\\right)$  时,  $f'(x)<0, f(x)$  单调递减,\n\n当  $x\\\\in\\\\left(\\\\frac{2\\\\pi}{3},\\\\pi\\\\right)$  时,  $f'(x)>0, f(x)$  单调递增.\n\n(2)注意到  $f(x+\\\\pi)=\\\\sin^2(x+\\\\pi)\\\\sin[2(x+\\\\pi)]=\\\\sin^2 x\\\\sin 2 x=f(x)$  .\n\n故函数  $f(x)$  是周期为  $\\\\pi$  的函数.\n\n结合(1)的结论,计算可得:  $f(0)=f(\\\\pi)=0$  ,\n\n$$ f\\\\left(\\\\frac{\\\\pi}{3}\\\\right)=\\\\left(\\\\frac{\\\\sqrt{3}}{2}\\\\right)^2\\\\times\\\\frac{\\\\sqrt{3}}{2}=\\\\frac{3\\\\sqrt{3}}{8}, f\\\\left(\\\\frac{2\\\\pi}{3}\\\\right)=\\\\left(\\\\frac{\\\\sqrt{3}}{2}\\\\right)^2\\\\times\\\\left(-\\\\frac{\\\\sqrt{3}}{2}\\\\right)=-\\\\frac{3\\\\sqrt{3}}{8},$$\n\n据此可得:  $[f(x)]_{\\\\max}=\\\\frac{3\\\\sqrt{3}}{8},[f(x)]_{\\\\min}=-\\\\frac{3\\\\sqrt{3}}{8}$  .\n\n$$\\\\text{即}|f(x)|\\\\leq\\\\frac{3\\\\sqrt{3}}{8}.$$\n(3)结合(2)的结论有:\n\n$$\\\\sin^2 x\\\\sin^2 2 x\\\\sin^2 4 x\\\\cdots\\\\sin^2 2^n x$$\n\n$$=\\\\left[\\\\sin^3 x\\\\sin^3 2 x\\\\sin^3 4 x\\\\cdots\\\\sin^3 2^n x\\\\right]^{\\frac{2}{3}}$$\n$$\\\\begin{align*}&=\\\\left[\\\\sin x\\\\left(\\\\sin^2 x\\\\sin 2 x\\\\right)\\\\left(\\\\sin^2 2 x\\\\sin 4 x\\\\right)\\\\cdots\\\\left(\\\\sin^2 2^{n-1} x\\\\sin 2^n x\\\\right)\\\\sin^2 2^n x\\\\right]^{\\frac{2}{3}}\\\\end{align*}$$\n$$\\\\begin{align*}&\\\\sin^2 x\\\\sin^2 2 x\\\\sin^2 4 x\\\\cdots\\\\sin^2 2^n x\\\\ =&{\\\\left[\\\\sin^3 x\\\\sin^3 2 x\\\\sin^3 4 x\\\\cdots\\\\sin^3 2^n x\\\\right]^{\\frac{2}{3}}}\\\\ =&{\\\\left[\\\\sin x\\\\left(\\\\sin^2 x\\\\sin 2 x\\\\right)\\\\left(\\\\sin^2 2 x\\\\sin 4 x\\\\right)\\\\cdots\\\\left(\\\\sin^2 2^{n-1} x\\\\sin 2^n x\\\\right)\\\\sin^2 2^n x\\\\right]^{\\frac{2}{3}}}\\\\ \\leq&{\\\\left[\\\\sin x\\\\times\\\\frac{3\\\\sqrt{3}}{8}\\\\times\\\\frac{3\\\\sqrt{3}}{8}\\\\times\\\\cdots\\\\times\\\\frac{3\\\\sqrt{3}}{8}\\\\times\\\\sin^2 2^n x\\\\right]^{\\frac{2}{3}}}\\\\end{align*}$$\n$$\\\\leq\\\\left[\\\\left(\\\\frac{3\\\\sqrt{3}}{8}\\\\right)^n\\\\right]^{\\frac{2}{3}}=\\\\left(\\\\frac{3}{4}\\\\right)^n.$$\n$$\\\\begin{align*}&\\\\leq\\\\left[\\\\left(\\\\frac{3\\\\sqrt{3}}{8}\\\\right)^n\\\\right]^{\\frac{2}{3}}=\\\\left(\\\\frac{3}{4}\\\\right)^n.\\\\end{align*}$$\n                    "
+        },
+        {
+            "id": 49,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "设集合 A={x | -2 < x < 4}, B={2,3,4,5}，则 A∩B=（ ）"
+                }
+            ],
+            "An": "B"
+        },
+        {
+            "id": 50,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "下列区间中，函数 f(x)=7sin(6x) 单调递增的区间是（ ）"
+                    
+                }
+            ],
+            "An": "A"
+        },
+        {
+            "id": 51,
+            "year": 2021,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知 1F 和 2F 是椭圆 C: 9x^2 + 4y^2 = 1 的两个焦点，点 M 在 C 上，则 |MF1| × |MF2| 的最大值为（ ）"
+                   
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 52,
+            "year": 2021,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "有6个相同的球，分别标有数字1，2，3，4，5，6，从中有放回的随机取两次，每次取1个球，甲表示事件“第一次取出的球的数字是1”，乙表示事件“第二次取出的球的数字是2”，丙表示事件“两次取出的球的数字之和是8”，丁表示事件“两次取出的球的数字之和是7”，则（ ）"
+                    
+                }
+            ],
+            "An": "B"
+        },
+        {
+            "id": 53,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知函数 f(x) = x^3 * a 是偶函数，则 a = ______."
+                   
+                }
+            ],
+            "An": "1"
+        },
+        {
+            "id": 54,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知O为坐标原点，抛物线C: y^2 = px (p > 0)的焦点为F，P为C上一点，PF与x轴垂直，Q为x轴上一点，且PQ⊥OP，若FQ=6，则C的准线方程为______."
+                    
+                }
+            ],
+            "An": "x = 3/2"
+        },
+        {
+            "id": 55,
+            "year": 2021,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "函数 f(x) = 2 - x^2/x 的最小值为______."
+                    
+                }
+            ],
+            "An": "1"
+        },
+        {
+            "id": 56,
+            "year": 2021,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "某校学生在研究民间剪纸艺术时，发现剪纸时经常会沿纸的某条对称轴把纸对折，规格为20dm × 12dm的长方形纸，对折1次共可以得到10dm × 12dm、20dm × 6dm两种规格的图形，它们的面积之和S1 = 240dm^2，对折2次共可以得到5dm × 12dm、10dm × 6dm、20dm × 3dm三种规格的图形，它们的面积之和S2 = 180dm^2，以此类推，则对折4次共可以得到不同规格图形的种数为______；如果对折n次，那么S_n = ______ 2 dm^2."
+                   
+                }
+            ],
+            "An": "5; (4/15) * (3^n + 720/2^n)"
+        },
+        {
+            "id": 57,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知数列 {a_n} 满足 a_1 = 1，a_{n+1} = 3/2 * (a_n + 1)，当n为奇数时，为n的平方；当n为偶数时，为n的立方根。求：（1）b_n = 2^n * a_n 的通项公式；（2）数列 {a_n} 的前20项和。"
+                   
+                }
+            ],
+            "An": "（1）b_n = 3^n - 2^n; （2）300"
+        },
+        {
+            "id": 58,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "某学校组织“一带一路”知识竞赛，有A，B两类问题，每位参加比赛的同学先在两类问题中选择一类并从中随机抽取一个问题回答，若回答错误则该同学比赛结束；若回答正确则从另一类问题中再随机抽取一个问题回答，无论回答正确与否，该同学比赛结束。A类问题中的每个问题回答正确得20分，否则得0分；B类问题中的每个问题回答正确得80分，否则得0分。已知小明能正确回答A类问题的概率为0.8，能正确回答B类问题的概率为0.6，且能正确回答问题的概率与回答次序无关。（1）若小明先回答A类问题，记X为小明的累计得分，求X的分布列；（2）为使累计得分的期望最大，小明应选择先回答哪类问题？并说明理由。"
+                   
+                }
+            ],
+            "An": "（1）X的分布列为：X 0 20 100 P 0.2 0.32 0.48；（2）B类"
+        },
+        
+        {
+        "id": 59,
+        "year": 2021,
+        "difficulty": "me",
+        "type": "comprehensive",
+        "number": "N20",
+        "Source": "新高考1",
+        "Description": [
+        {
+        "Qu": "如图，在三棱锥A-BCD中，平面ABD⊥平面BCD，AB=AD，O为BD的中点。（1）证明：OA⊥CD；（2）若△OCD为边长为1的等边三角形，点E在棱AD上，DE/EA=2，且二面角E-BCD的大小为45°，求三棱锥A-BCD的体积。"
+        
         }
+        ],
+        "An": "（1）因为AB=AD,O为BD中点，所以AO⊥BD 因为平面ABD∩平面BCD=BD，平面ABD⊥平面BCD，AO⊂平面ABD， 因此AO⊥平面BCD， 因为CD⊂平面BCD，所以AO⊥CD （2）作EF⊥BD于F，作FM⊥BC于M，连FM 因为AO⊥平面BCD，所以AO⊥BD，AO⊥CD 所以EF⊥BD，EF⊥CD，BD∩CD=D，因此EF⊥平面BCD，即EF⊥BC 因为FM⊥BC，FM⊥EF=F，所以BC⊥平面EFM，即BC⊥MF 则∠EMF为二面角E-BC-D的平面角，∠EMF=π/4 因为BO=OD，△OCD为正三角形，所以△OCD为直角三角形 因为BE=2ED，∴FM=1/2BF=1/2(1+1/3)=2/3 从而EF=FM=2/3，∴AO=1 Q AO⊥平面BCD， 所以V=1/3AO·S_△BCD=1/3×1×1/2×1×√3=√3/6"
+        },
+        {
+        "id": 60,
+        "year": 2021,
+        "difficulty": "ha",
+        "type": "comprehensive",
+        "number": "N21",
+        "Source": "新高考1",
+        "Description": [
+        {
+        "Qu": "在平面直角坐标系xOy中，已知点F1(-17,0)、F2(17,0)，点M的轨迹为C。（1）求C的方程；（2）设点T在直线x=1上，过T的两条直线分别交C于A、B两点和P、Q两点，且TA·TB=TP·TQ，求直线AB的斜率与直线PQ的斜率之和。"
+        
+        }
+        ],
+        "An": "（1）y^2/16 - x^2/1 ≥ 1；（2）0"
+        },
+        
+        {
+            "id": 61,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "复数 \\(\\frac{2i}{1-3i}\\) 在复平面内对应的点所在的象限为（ ）"
+                    
+                }
+            ],
+            "An": "A"
+        },
+        {
+            "id": 62,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "北斗三号全球卫星导航系统是我国航天事业的重要成果。在卫星导航系统中，地球静止同步卫星的轨道位于地球赤道所在平面，轨道高度为36000km（轨道高度是指卫星到地球表面的距离）。将地球看作是一个球心为O，半径r为6400km的球，其上点A的纬度是指OA与赤道平面所成角的度数。地球表面上能直接观测到一颗地球静止同步轨道卫星点的纬度最大值为a，记卫星信号覆盖地球表面的表面积为 S = 2\\pi r^2 (1 - \\cos a)（单位：km²），则S占地球表面积的百分比约为（ ）",
+                    "An": "C"
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 63,
+            "year": 2021,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知直线 l_2: ax + by + r = 0 与圆 C: x^2 + y^2 + Dx + Ey + F = 0，点 A(a, b)，则下列说法正确的是（ ）",
+                    "An": "ABD"
+                }
+            ],
+            "An": "ABD"       
+        },
+        {
+            "id": 64,
+            "year": 2021,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "正四棱台的上、下底面的边长分别为2，4，侧棱长为2，则其体积为（ ）",
+                    "An": "D"
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 65,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知双曲线 \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1（其中 a > 0, b > 0）的离心率为2，则该双曲线的渐近线方程为_______",
+                    "An": "±\\frac{3y}{x}"
+                }
+            ],
+            "An": "±\\frac{3y}{x}"
+        },
+        {
+            "id": 66,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "写出一个同时具有下列性质①②③的函数 f(x)：① f(1) = 2, f(2) = 1, f(3) = 2；②当 x \\in (0, +\\infty) 时，f'(x) > 0；③ f'(x) 是奇函数。",
+                    "An": "答案不唯一，例如 f(x) = x^4"
+                }
+            ],
+            "An": "答案不唯一，例如 f(x) = x^4"
+        },
+        {
+            "id": 67,
+            "year": 2021,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知向量 \\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}，\\vec{a} = 1，\\vec{b} = 2\\vec{r}，\\vec{c} = 2\\vec{r}，则 \\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a} = _______．",
+                    "An": "-9"
+                }
+            ],
+            "An": "-9"
+        },
+        {
+            "id": 68,
+            "year": 2021,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知函数 f(x) = \\begin{cases} 1, & x < 0 \\\\ e^x, & 0 \\leq x \\leq 1 \\\\ e, & x > 1 \\end{cases}，函数 f(x) 的图象在点 A(x_1, f(x_1)) 和点 B(x_2, f(x_2)) 的两条切线互相垂直，且分别交y轴于M，N两点，则 |AM| \\cdot |BN| 取值范围是_______．",
+                    "An": "(0,1)"
+                }
+            ],
+            "An": "(0,1)"
+        },
+        {
+            "id": 69,
+            "year": 2021,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "记 S_n 是公差不为0等差数列 \\{a_n\\} 的前n项和，若 3a_5 = 5a_2，4a_4 = 2a_2 + 4a_6．",
+                    "An": "(1) a_n = 6n - 2；(2) 7"
+                }
+            ],
+            "An": "(1) a_n = 6n - 2；(2) 7"
+        },
+        {
+            "id": 70,
+            "year": 2021,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "在 \\triangle ABC 中，角 A、B、C 所对的边长分别为 a、b、c，b = a + 1，c = a + 2．",
+                    "An": "(1) \\frac{15\\sqrt{7}}{4}；(2) 存在，且 a = 2"
+                }
+            ],
+            "An": "(1) \\frac{15\\sqrt{7}}{4}；(2) 存在，且 a = 2"
+        },
+        {
+            "id": 71,
+            "year": 2021,
+            "difficulty": "me",
+            "type": "comprehensive",
+            "number": "N20",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "20. 已知椭圆C的方程为 x²/a² + y²/b² = 1 (a > b > 0)，右焦点为 F(√2,0)，且离心率为 √6/3。\n(1) 求椭圆C的方程；\n(2) 设M，N是椭圆C上的两点，直线MN与曲线 x² + y² = b² (x > 0) 相切。证明：M，N，F三点共线的充要条件是 |MN| = √3。"
+                }
+            ],
+            "An": "由题意，椭圆半焦距 c = √2 且 e = c/a = √6/3，所以 a = √3，\n又 b² = a² - c² = 1，所以椭圆方程为 x²/3 + y² = 1；\n(2) 由 (1) 得，曲线为 x² + y² = 1 (x > 0)，\n当直线MN的斜率不存在时，直线MN：x = 1，不合题意；\n当直线MN的斜率存在时，设 M(x₁, y₁), N(x₂, y₂)，\n必要性：若M，N，F三点共线，可设直线MN：y = k(x - √2) 即 kx - y - √2k = 0，\n由直线MN与曲线 x² + y² = 1 (x > 0) 相切可得 |√2k| / √(k² + 1) = 1，解得 k = ±1，\n联立 {y = ±(x - √2)} 和 {x²/3 + y² = 1} 可得 4x² - 6√2x + 3 = 0，所以 x₁ + x₂ = 3√2 / 2, x₁x₂ = 3 / 4，\n所以 |MN| = √1 + 1 * √((x₁ + x₂)² - 4x₁x₂) = √3，\n所以必要性成立；\n充分性：设直线MN：y = kx + b (kb < 0) 即 kx - y + b = 0，\n由直线MN与曲线 x² + y² = 1 (x > 0) 相切可得 |b| / √(k² + 1) = 1，所以 b² = k² + 1，\n联立 {y = kx + b} 和 {x²/3 + y² = 1} 可得 (1 + 3k²)x² + 6kbx + 3b² - 3 = 0，"
+        },
+        {
+            "id": 72,
+            "year": 2021,
+            "difficulty": "ha",
+        "type": "comprehensive",
+        "number": "N21",
+        "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "一种微生物群体可以经过自身繁殖不断生存下来，设一个这种微生物为第0代，经过一次繁殖后为第1代，再经过一次繁殖后为第2代……，该微生物每代繁殖的个数是相互独立的且有相同的分布列，设X表示1个微生物个体繁殖下一代的个数，P(X = i) = p_i (i = 0,1,2,3)。\n(1) 已知 p_0 = 0.4, p_1 = 0.3, p_2 = 0.2, p_3 = 0.1，求 E(X)；\n(2) 设p表示该种微生物经过多代繁殖后临近灭绝的概率，p是关于x的方程：p_0 + p_1x + p_2x² + p_3x³ = x 的一个最小正实根，求证：当 E(X) ≤ 1时，p = 1，当 E(X) > 1 时，p < 1；\n(3) 根据你的理解说明（2）问结论的实际含义。"
+                }
+            ],
+            "An": "(1) E(X) = 0×0.4 + 1×0.3 + 2×0.2 + 3×0.1 = 1。\n(2) 设 f(x) = p_3x³ + p_2x² + (p_1 - 1)x + p_0，\n因为 p_3 + p_2 + p_1 + p_0 = 1，故 f(x) = p_3x³ + p_2x² - (p_2 + p_0 + p_3)x + p_0，\n若 E(X) ≤ 1，则 p_1 + 2p_2 + 3p_3 ≤ 1，故 p_2 + 2p_3 ≤ p_0。\nf'(x) = 3p_3x² + 2p_2x - (p_2 + p_0 + p_3)，\n因为 f'(0) = -(p_2 + p_0 + p_3) < 0，f'(1) = p_2 + 2p_3 - p_0 ≤ 0，\n故 f'(x) 有两个不同零点 x_1, x_2，且 x_1 < 0 < 1 ≤ x_2，\n且 x ∈ (-∞, x_3) ∪ (x_4, +∞) 时，f'(x) > 0；x ∈ (x_3, x_4) 时，f'(x) < 0；\n故 f(x) 在 (-∞, x_3)，(x_4, +∞) 上为增函数，在 (x_3, x_4) 上为减函数，\n而 f(1) = 0，故 f(x_4) < 0，\n又 f(0) = p_0 > 0，故 f(x) 在 (0, x_4) 存在一个零点 p，且 p < 1。\n所以 p 为 p_0 + p_1x + p_2x² + p_3x³ = x 的一个最小正实根，此时 p < 1，\n故当 E(X) > 1 时，p < 1。\n(3) 意义：每一个该种微生物繁殖后代的平均数不超过1，则若干代必然灭绝，若繁殖后代的平均数超过1，则若干代后被灭绝的概率小于1。"
+        },
+        {
+            "id": 73,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "若集合 \\(M = \\{x | x < 4, x > 1\\}\\), \\(N = \\{x | |x| < 3\\}\\)，则 \\(M \\cap N\\) 为（ ）",
+                    "An": "D"
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 74,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "北斗三号全球卫星导航系统是我国航天事业的重要成果。在卫星导航系统中，地球静止同步卫星的轨道位于地球赤道所在平面，轨道高度为36000km（轨道高度是指卫星到地球表面的距离）。将地球看作是一个球心为O，半径r为6400km的球，其上点A的纬度是指OA与赤道平面所成角的度数。地球表面上能直接观测到一颗地球静止同步轨道卫星点的纬度最大值为a，记卫星信号覆盖地球表面的表面积为 \\(S = 2\\pi r^2 (1 - \\cos a)\\)（单位：km^2），则S占地球表面积的百分比约为（ ）",
+                    "An": "C"
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 75,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知直线 \\(l_2: ax + by + r = 0\\) 与圆 \\(C: x^2 + y^2 + Dx + Ey + F = 0\\)，点 \\(A(a, b)\\)，则下列说法正确的是（ ）",
+                    "An": "ABD"
+                }
+            ],
+            "An": "ABD"       
+        },
+        {
+            "id": 76,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "正四棱台的上、下底面的边长分别为2，4，侧棱长为2，则其体积为（ ）",
+                    "An": "D"
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 77,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知双曲线 \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\)（其中 \\(a > 0, b > 0\\)）的离心率为2，则该双曲线的渐近线方程为_______",
+                    "An": "±\\(\\frac{3y}{x}\\)"
+                }
+            ],
+            "An": "±\\(\\frac{3y}{x}\\)"
+        },
+        {
+            "id": 78,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "写出一个同时具有下列性质①②③的函数 \\(f(x)\\)：① \\(f(1) = 2\\), \\(f(2) = 1\\), \\(f(3) = 2\\)；②当 \\(x \\in (0, +\\infty)\\) 时，\\(f'(x) > 0\\)；③ \\(f'(x)\\) 是奇函数。",
+                    "An": "答案不唯一，例如 \\(f(x) = x^4\\)"
+                }
+            ],
+            "An": "答案不唯一，例如 \\(f(x) = x^4\\)"
+        },
+        {
+            "id": 79,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知向量 \\(\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}\\)，\\(\\vec{a} = 1\\)，\\(\\vec{b} = 2\\vec{r}\\)，\\(\\vec{c} = 2\\vec{r}\\)，则 \\(\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a} =\\) _______．",
+                    "An": "-9"
+                }
+            ],
+            "An": "-9"
+        },
+        {
+            "id": 80,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知函数 \\(f(x) = \\begin{cases} 1, & x < 0 \\ e^x, & 0 \\leq x \\leq 1 \\ e, & x > 1 \\end{cases}\\)，函数 \\(f(x)\\) 的图象在点 \\(A(x_1, f(x_1))\\) 和点 \\(B(x_2, f(x_2))\\) 的两条切线互相垂直，且分别交y轴于M，N两点，则 \\(|AM| \\cdot |BN|\\) 取值范围是_______．",
+                    "An": "(0,1)"
+                }
+            ],
+            "An": "(0,1)"
+        },
+        {
+            "id": 81,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "记 \\(S_n\\) 是公差不为0等差数列 \\(\\{a_n\\}\\) 的前n项和，若 \\(3a_5 = 5a_2\\)，\\(4a_4 = 2a_2 + 4a_6\\)．",
+                    "An": "(1) \\(a_n = 6n - 2\\)；(2) 7"
+                }
+            ],
+            "An": "(1) \\(a_n = 6n - 2\\)；(2) 7"
+        },
+        {
+            "id": 82,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "在 \\(\\triangle ABC\\) 中，角 \\(A\\)、\\(B\\)、\\(C\\) 所对的边长分别为 \\(a\\)、\\(b\\)、\\(c\\)，\\(b = a + 1\\)，\\(c = a + 2\\)．",
+                    "An": "(1) \\(\\frac{15\\sqrt{7}}{4}\\)；(2) 存在，且 \\(a = 2\\)"
+                }
+            ],
+            "An": "(1) \\(\\frac{15\\sqrt{7}}{4}\\)；(2) 存在，且 \\(a = 2\\)"
+        },
+        {
+            "id": 83,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "comprehensive",
+            "number": "N20",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "20. 一医疗团队为研究某地的一种地方性疾病与当地居民的卫生习惯（卫生习惯分为良好和不够良好两类）的关系，在已患该疾病的病例中随机调查了100例（称为病例组），同时在未患该疾病的人群中随机调查了100人（称为对照组），得到如下数据：\n不够良好\t良好\n病例组\t40\t60\n对照组\t10\t90\n(1) 能否有99%的把握认为患该疾病群体与未患该疾病群体的卫生习惯有差异？\n(2) 从该地的人群中任选一人，A 表示事件“选到的人卫生习惯不够良好”，B 表示事件“选到的人患有该疾病”。\nP(B|A) 与 P(B|A̅) 的比值是卫生习惯不够良好对患该疾病风险程度的一项度量指标，记该指标为 R。\n(i) 证明：R = P(A|B) / P(A|B̅)；\n(ii) 利用该调查数据，给出 P(A|B), P(A|B̅) 的估计值，并利用（i）的结果给出 R 的估计值。"
+                }
+            ],
+            "An": "(1) 由所给数据结合公式求出 K² 的值，将其与临界值比较大小，由此确定是否有99%的把握认为患该疾病群体与未患该疾病群体的卫生习惯有差异；(2) (i) 根据定义结合条件概率公式即可完成证明；(ii) 根据（i）结合已知数据求 R。\n【小问1详解】\n由已知 K² = (n(ad-bc)²) / ((a+b)(c+d)(a+c)(b+d)) = 200(40×90-60×10)² / (50×150×100×100) = 24，\n又 P(K² ≥ 6.635) = 0.01，24 > 6.635，\n所以有99%的把握认为患该疾病群体与未患该疾病群体的卫生习惯有差异。\n【小问2详解】\n(i) 因为 R = P(B|A) / P(B|A̅) = P(AB) / P(A) * P(A̅B) / P(A̅) = P(AB) / P(A̅B) * P(A|B) / P(A|A̅B)，\n所以 R = P(AB) / P(A̅B) * P(A|B) / P(A|A̅B)，\n所以 R = P(A|B) / P(A|B̅)，\n(ii) 由已知 P(A|B) = 40 / 100，P(A|B̅) = 10 / 100，\n又 P(A|B) = 60 / 100，P(A|B̅) = 90 / 100，\n所以 R = P(A|B) / P(A|B̅) = 6"
+        },
+        {
+            "id": 84,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "comprehensive",
+            "number": "N21",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "21. 已知点 A(2,1) 在双曲线 C: x²/a² - y²/(a²-1) = 1 (a > 1) 上，直线 l 交 C 于 P，Q 两点，直线 AP, AQ 的斜率之和为 0。\n(1) 求 l 的斜率；\n(2) 若 tan ∠PAQ = 2√2，求 △PAQ 的面积。"
+                }
+            ],
+            "An": "\n【答案】(1) -1; (2) 16√2 / 9。【小问1详解】\n因为点 A(2,1) 在双曲线 C: x²/a² - y²/(a²-1) = 1 (a > 1) 上，所以 4/a² - 1/(a²-1) = 1，解得 a² = 2，\n即双曲线 C: x²/2 - y² = 1\n易知直线 l 的斜率存在，设 l: y = kx + m，P(x₁, y₁), Q(x₂, y₂)，\n联立 {y = kx + m} 可得，(1-2k²)x² - 4mkx - 2m² - 2 = 0，\n所以，x₁ + x₂ = -4mk / (2k² - 1), x₁x₂ = (2m² + 2) / (2k² - 1)，\nΔ = 16m²k² + 4(2m² + 2)(2k² - 1) > 0 ⇒ m² - 1 + 2k² > 0，\n所以由 kAP + kAQ = 0 可得，(y₂ - 1) / (x₂ - 2) + (y₁ - 1) / (x₁ - 2) = 0，\n即 (x₁ - 2)(kx₂ + m - 1) + (x₂ - 2)(kx₁ + m - 1) = 0，\n所以 2kx₁x₂ + (m - 1 - 2k)(x₁ + x₂) - 4(m - 1) = 0，\n化简得，8k² + 4k - 4 + 4m(k + 1) = 0，即 (k + 1)(2k - 1 + m) = 0，\n故 k = -1 或 m = 1 - 2k，\n若 m = 1 - 2k 时，直线 l: y = kx + m = k(x - 2) + 1 过点 A(2,1)，与题意不符，舍去，\n故 k = -1。\n【小问2详解】\n不妨设直线 PA, PB 的倾斜角为 α, β (α < β)，因为 kAP + kAQ = 0，所以 α + β = π，\n因为 tan ∠PAQ = 2√2，所以 tan (β - α) = 2√2，即 tan 2α = -2√2，\n即 2tan²α - tanα - 2 = 0，解得 tanα = √2，\n于是，直线 PA: y = √2(x - 2) + 1，直线 PB: y = -√2(x - 2) + 1，\n联立 {y = √2(x - 2) + 1} 可得，x²/2 - y² = 1\n因为方程有一个根为 2，所以 xP = 10 - 4√2 / 3，yP = 4√2 / 3，\n同理可得，xQ = 10 + 4√2 / 3，yQ = -4√2 - 5 / 3，\n所以 PQ: x + y - 5 / 3 = 0，|PQ| = 16 / 3，\n点 A 到直线 PQ 的距离 d = (2 + 1 - 5 / 3) / √2 = 2√2 / 3，\n故 △PAQ 的面积为 1/2 × 16 / 3 × 2√2 / 3 = 16√2 / 9。"
+        },
+    
+        {
+            "id": 85,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知集合 \\(A = \\{x | x \\leq 1, x \\geq 1\\}\\), \\(B = \\{x | 0 \\leq x \\leq 2\\}\\)，则 \\(A \\cap B\\) 为（ ）"
+          
+                }
+            ],
+            "An": "B"
+        },
+        {
+            "id": 86,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "北斗三号全球卫星导航系统是我国航天事业的重要成果。在卫星导航系统中，地球静止同步卫星的轨道位于地球赤道所在平面，轨道高度为36000km（轨道高度是指卫星到地球表面的距离）。将地球看作是一个球心为O，半径r为6400km的球，其上点A的纬度是指OA与赤道平面所成角的度数。地球表面上能直接观测到一颗地球静止同步轨道卫星点的纬度最大值为a，记卫星信号覆盖地球表面的表面积为 \\(S = 2\\pi r^2 (1 - \\cos a)\\)（单位：km²），则S占地球表面积的百分比约为（ ）"
+                   
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 87,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知直线 \\(l_2: ax + by + r = 0\\) 与圆 \\(C: x^2 + y^2 + Dx + Ey + F = 0\\)，点 \\(A(a, b)\\)，则下列说法正确的是（ ）"
+                    
+                }
+            ],
+            "An": "ABD"       
+        },
+        {
+            "id": 88,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "正四棱台的上、下底面的边长分别为2，4，侧棱长为2，则其体积为（ ）"
+                }
+
+            ],
+            "An": "D"
+        },
+        {
+            "id": 89,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知双曲线 \\(\\x2/a^2 - \\y2/b^2 = 1\\)（其中 \\(a > 0, b > 0\\)）的离心率为2，则该双曲线的渐近线方程为_______"
+                }
+            ],
+            "An": "±\\(\\frac{3y}{x}\\)"
+        },
+        {
+            "id": 90,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "写出一个同时具有下列性质①②③的函数 \\(f(x)\\)：① \\(f(1) = 2\\), \\(f(2) = 1\\), \\(f(3) = 2\\)；②当 \\(x \\in (0, +\\infty)\\) 时，\\(f'(x) > 0\\)；③ \\(f'(x)\\) 是奇函数。"
+                    
+                }
+            ],
+            "An": "答案不唯一，例如 \\(f(x) = x^4\\)"
+        },
+        {
+            "id": 91,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知向量 \\(\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}\\)，\\(\\vec{a} = 1\\)，\\(\\vec{b} = 2\\vec{r}\\)，\\(\\vec{c} = 2\\vec{r}\\)，则 \\(\\vec{a} \\times \\vec{b} + \\vec{b} \\times \\vec{c} + \\vec{c} \\times \\vec{a} =\\) _______．"
+                   
+                }
+            ],
+            "An": "-9"
+        },
+        {
+            "id": 92,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知函数 \\(f(x) = \\begin{cases} 1, & x < 0 \\ e^x, & 0 \\leq x \\leq 1 \\ e, & x > 1 \\end{cases}\\)，函数 \\(f(x)\\) 的图象在点 \\(A(x_1, f(x_1))\\) 和点 \\(B(x_2, f(x_2))\\) 的两条切线互相垂直，且分别交y轴于M，N两点，则 \\(|AM| \\cdot |BN|\\) 取值范围是_______．"
+                   
+                }
+            ],
+            "An": "(0,1)"
+        },
+        {
+            "id": 93,
+            "year": 2022,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "记 \\(S_n\\) 是公差不为0等差数列 \\(\\{a_n\\}\\) 的前n项和，若 \\(3a_5 = 5a_2\\)，\\(4a_4 = 2a_2 + 4a_6\\)．"
+                    
+                }
+            ],
+            "An": "(1) \\(a_n = 6n - 2\\)；(2) 7"
+        },
+        {
+            "id":94,
+            "year": 2022,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "在 \\(\\triangle ABC\\) 中，角 \\(A\\)、\\(B\\)、\\(C\\) 所对的边长分别为 \\(a\\)、\\(b\\)、\\(c\\)，\\(b = a + 1\\)，\\(c = a + 2\\)．"
+                    
+                }
+            ],
+            "An": "(1) \\(\\frac{15\\sqrt{7}}{4}\\)；(2) 存在，且 \\(a = 2\\)"
+        },
+        {
+            "id": 95,
+            "year": 2022,
+            "difficulty": "me",
+            "type": "comprehensive",
+            "number": "N21",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "21. 已知双曲线 C: x²/a² - y²/b² = 1 (a > 0, b > 0) 的右焦点为 F(2,0)，渐近线方程为 y = ±√3x。\n(1) 求 C 的方程；\n(2) 过 F 的直线与 C 的两条渐近线分别交于 A，B 两点，点 P(x₁, y₁), Q(x₂, y₂) 在 C 上，且 x₁ > x₂ > 0, y₁ > 0。过 P 且斜率为 -√3 的直线与过 Q 且斜率为 √3 的直线交于点 M. 从下面①②③中选取两个作为条件，证明另外一个成立：\n①M 在 AB 上；②PQ∥AB；③|MA|=|MB|。\n注：若选择不同的组合分别解答，则按第一个解答计分。\n"
+                }
+            ],
+            "An": "【小问1详解】\n右焦点为 F(2,0)，∴ c = 2，∵ 渐近线方程为 y = ±√3x，∴ b/a = √3，∴ b = √3a，∴ c² = a² + b² = 4a²，∴ a = 1，∴ b = √3。\n∴ C 的方程为：x² - y²/3 = 1；\n【小问2详解】\n由已知得直线 PQ 的斜率存在且不为零，直线 AB 的斜率不为零。\n若选由①②推③或选由②③推①，则②成立可知直线 AB 的斜率存在且不为零；\n若选①③推②，则 M 为线段 AB 的中点，假若直线 AB 的斜率不存在，则由双曲线的对称性可知 M 在 x 轴上，即为焦点 F，此时由对称性可知 P，Q 关于 x 轴对称，与从而 x₁ = x₂，已知不符；\n总之，直线 AB 的斜率存在且不为零。\n设直线 AB 的斜率为 k，直线 AB 方程为 y = k(x - 2)，\n则条件①M 在 AB 上，等价于 y₀ = k(x₀ - 2) ⇔ ky₀ = k²(x₀ - 2)；\n两渐近线的方程合并为 3x² - y² = 0，\n联立消去 y 并化简整理得：(k² - 3)x² - 4k²x + 4k² = 0\n设 A(x₁, y₁), B(x₂, y₂), 线段中点为 N(x_N, y_N)，则 x_N = (x₁ + x₂) / 2 = 2k² / (k² - 3), y_N = k(x_N - 2) = 6k / (k² - 3)，\n设 M(x₀, y₀)，\n则条件③|AM|=|BM|等价于 (x₀ - x₁)² + (y₀ - y₁)² = (x₀ - x₂)² + (y₀ - y₂)²，\n移项并利用平方差公式整理得：\n(x₀ - x₁)[2x₀ - (x₁ + x₂)] + (y₀ - y₁)[2y₀ - (y₁ + y₂)] = 0，\n[2x₀ - (x₁ + x₂)] + (y₀ - y₁)[2y₀ - (y₁ + y₂)] = 0，即 x₀ - x₂ + k(y₀ - y₁) = 0，\n即 x₀ + ky₀ = k²(x₀ - 2)；\n由题意知直线 PM 的斜率为 -√3，直线 QM 的斜率为 √3，\n∴ 由 y₁ - y₀ = -√3(x₁ - x₀), y₂ - y₀ = √3(x₂ - x₀)，\n∴ y₁ - y₂ = -√3(x₁ + x₂ - 2x₀)，\n所以直线 PQ 的斜率 m = (y₁ - y₂) / (x₁ - x₂) = -√3(x₁ + x₂ - 2x₀) / (x₁ - x₂)，\n直线 PM : y = -√3(x - x₀) + y₀, 即 y = y₀ + √3x₀ - √3x，\n代入双曲线的方程 3x² - y² - 3 = 0，即 (√3x + y)(√3x - y) = 3中，\n得：(x₀ + √3x₀)[2√3x - (x₀ + √3x₀)] = 3，\n解得 P 的横坐标：x₁ = 1 / (3 / (2√3) + y₀ + √3x₀)，\n同理：x₂ = -1 / (3 / (2√3) + y₀ - √3x₀)，\n∴ x₁ - x₂ = 1 / (3 / (2√3) + y₀ + √3x₀) - 1 / (3 / (2√3) + y₀ - √3x₀)，\n∴ m = 3x₀ / y₀，\n∴ 条件②PQ∥AB等价于 m = k ⇔ ky₀ = 3x₀，\n综上所述：\n条件①M 在 AB 上，等价于 ky₀ = k²(x₀ - 2)；\n条件②PQ∥AB等价于 ky₀ = 3x₀；\n条件③|AM|=|BM|等价于 x₀ + ky₀ = 4x₀ = 8k² / (k² - 3)，∴③成立；\n选①②推③：\n由①②解得：x₀ = 2k² / (k² - 3), x₀ + ky₀ = 4x₀ = 8k² / (k² - 3)，∴③成立；\n选①③推②：\n由①③解得：x₀ = 2k² / (k² - 3)，ky₀ = 6k² / (k² - 3)，∴ ky₀ = 3x₀，∴②成立；\n选②③推①：\n由②③解得：x₀ = 2k² / (k² - 3)，ky₀ = 6k² / (k² - 3)，∴ x₀ - 2 = 6 / (k² - 3)，\n∴ ky₀ = k²(x₀ - 2)，∴①成立。"
+        },
+        {
+            "id": 96,
+            "year": 2022,
+            "difficulty": "ha",
+            "type": "comprehensive",
+            "number": "N22",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "22. 已知函数 f(x) = xe^(ax) - e^x。\n(1) 当 a = 1 时，讨论 f(x) 的单调性；\n(2) 当 x > 0 时，f(x) < -1，求 a 的取值范围；\n(3) 设 n ∈ ℕ*，证明：1/√(1²+1) + 1/√(2²+2) + ... + 1/√(n²+n) > ln(n+1)。"
+                }
+            ],
+            "An": "\n【小问1详解】\n当 a = 1 时，f(x) = (x-1)e^x，则 f'(x) = xe^x，\n当 x < 0 时，f'(x) < 0，当 x > 0 时，f'(x) > 0，\n故 f(x) 的减区间为 (-∞,0)，增区间为 (0,+∞)。\n【小问2详解】\n设 h(x) = xe^(ax) - e^x + 1，则 h(0) = 0，\n又 h'(x) = (1+ax)e^(ax) - e^x，设 g(x) = (1+ax)e^(ax) - e^x，\n则 g'(x) = (2a + a²x)e^(ax) - e^x，\n若 a > 1/2，则 g'(0) = 2a - 1 > 0，\n因为 g'(x) 为连续不间断函数，\n故存在 x₀ ∈ (0,+∞)，使得 ∀x ∈ (0,x₀)，总有 g'(x) > 0，\n故 g(x) 在 (0,x₀) 为增函数，故 g(x) > g(0) = 0，\n故 h(x) 在 (0,x₀) 为增函数，故 h(x) > h(0) = -1，与题设矛盾。"
+        },
+        {
+            "id": 97,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知集合 \\(M = \\{-2, 1, 0, 1, 2\\}\\), \\(N = \\{x | x^2 - 6x < 0\\}\\)，则 \\(M \\cap N\\) 为（ ）"
+                    
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 98,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知向量 \\(\\vec{a} = (1, 1)\\), \\(\\vec{b} = (a, b)\\)，若\\(\\vec{a} \\cdot \\vec{b} = 1\\)，则（ ）"
+                    
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 99,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知函数 \\(f(x) = 2^x\\) 在区间 \\((0, 1)\\) 上单调递减，则 a 的取值范围是（ ）"
+                   
+                }
+            ],
+            "An": "D"       
+        },
+        {
+            "id": 100,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知 \\(\\sin(\\alpha) = \\frac{1}{3}\\), \\(\\cos(\\beta) = \\frac{1}{6}\\)，则 \\(\\cos(2\\alpha + \\beta)\\) 为（ ）"
+                    
+                }
+            ],
+            "An": "B"
+        },
+        {
+            "id": 101,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "某学校开设了 4 门体育类选修课和 4 门艺术类选修课，学生需从这 8 门课中选修 2 门或 3 门课，并且每类选修课至少选修 1 门，则不同的选课方案共有________种（用数字作答）．"
+                    
+                }
+            ],
+            "An": "64"
+        },
+        {
+            "id": 102,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "在正四棱台 \\(ABCD-A_1B_1C_1D_1\\) 中，\\(AB = 2\\), \\(A_1B_1 = 1\\), 则该棱台的体积为________．"
+                   
+                }
+            ],
+            "An": "7/6"
+        },
+        {
+            "id": 103,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知函数 \\(f(x) = \\cos(wx)\\) 在区间 \\((0, 2\\pi)\\) 有且仅有 3 个零点，则 w 的取值范围是________．"
+                    
+                }
+            ],
+            "An": "[2, 3)"
+        },
+        {
+            "id": 104,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知双曲线 \\(C: \\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\) 的左、右焦点分别为 \\(F_1, F_2\\)，点 A 在 C 上，点 B 在 y 轴上，若 \\(\\overrightarrow{F_1A} = 2\\overrightarrow{F_1B}\\)，则 C 的离心率为________．"
+                    
+                }
+            ],
+            "An": "3/5"
+        },
+        {
+            "id": 105,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "已知在 \\(\\triangle ABC\\) 中，\\(\\sin B = 3\\sin A\\), \\(\\sin C = 2\\sin A\\)，则 \\(\\sin A\\) 为（ ）"
+                    
+                }
+            ],
+            "An": "3/10"
+        },
+        {
+            "id": 106,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "设椭圆 \\(C\\) 的方程为 \\(\\frac{x^2}{2} + \\frac{y^2}{1} = 1\\)，离心率分别为 \\(e_1\\) 和 \\(e_2\\)，若 \\(e_1 \\cdot e_2 = \\frac{3}{2}\\)，则 a 的值为（ ）"
+                   
+                }
+            ],
+            "An": "A"
+        },
+        {
+            "id": 107,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "comprehensive",
+            "number": "N19",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "19. 已知函数 f(x) = a(e^x + a) - x。\n(1) 讨论 f(x) 的单调性；\n(2) 证明：当 a > 0 时，f(x) > 2ln a + 3/2。\n"
+    
+                }
+            ],
+            "An": "【小问1详解】\n当 a ≤ 0 时，由于 e^x > 0，则 ae^x ≤ 0，故 f'(x) = ae^x - 1 < 0 恒成立，\n所以 f(x) 在 R 上单调递减；\n当 a > 0 时，令 f'(x) = ae^x - 1 = 0，解得 x = -ln a，\n当 x < -ln a 时，f'(x) < 0，则 f(x) 在 (-∞, -ln a) 上单调递减；\n当 x > -ln a 时，f'(x) > 0，则 f(x) 在 (-ln a, +∞) 上单调递增；\n综上：当 a ≤ 0 时，f(x) 在 R 上单调递减；\n当 a > 0 时，f(x) 在 (-∞, -ln a) 上单调递减，f(x) 在 (-ln a, +∞) 上单调递增。\n【小问2详解】\n方法一：\n由（1）得，f(x)_min = f(-ln a) = a(e^(-ln a) + a) + ln a = 1 + a^2 + ln a，\n要证 f(x) > 2ln a + 3/2，即证 1 + a^2 + ln a > 2ln a + 3/2，即证 a^2 - 1/2 - ln a > 0 恒成立，\n令 g(a) = a^2 - 1/2 - ln a (a > 0)，则 g'(a) = 2a - 1/a = (2a^2 - 1) / a，\n令 g'(a) < 0，则 0 < a < √2/2；令 g'(a) > 0，则 a > √2/2；\n所以 g(a) 在 (0, √2/2) 上单调递减，在 (√2/2, +∞) 上单调递增，\n所以 g(a)_min = g(√2/2) = (√2/2)^2 - 1/2 - ln(√2/2) = ln √2 > 0，则 g(a) > 0 恒成立，证毕。\n方法二：\n令 h(x) = e^x - x - 1，则 h'(x) = e^x - 1 在 R 上单调递增，\n又 h'(0) = e^0 - 1 = 0，\n所以当 x < 0 时，h'(x) < 0；当 x > 0 时，h'(x) > 0；\n所以 h(x) 在 (-∞, 0) 上单调递减，在 (0, +∞) 上单调递增，\n故 h(x) ≥ h(0) = 0，即 e^x ≥ x + 1，当且仅当 x = 0 时，等号成立，\n因为 f(x) = a(e^x + a) - x = ae^x + a^2 - x ≥ x + ln a + 1 + a^2 - x，\n当且仅当 x + ln a = 0，即 x = -ln a 时，等号成立，\n所以要证 f(x) > 2ln a + 3/2，即证 x + ln a + 1 + a^2 - x > 2ln a + 3/2，即证 a^2 - 1/2 - ln a > 0，\n令 g(a) = a^2 - 1/2 - ln a (a > 0)，则 g'(a) = 2a - 1/a = (2a^2 - 1) / a，\n令 g'(a) < 0，则 0 < a < √2/2；令 g'(a) > 0，则 a > √2/2；\n所以 g(a) 在 (0, √2/2) 上单调递减，在 (√2/2, +∞) 上单调递增，\n所以 g(a)_min = g(√2/2) = (√2/2)^2 - 1/2 - ln(√2/2) = ln √2 > 0，则 g(a) > 0 恒成立，证毕。"
+        },
+        {
+            "id": 108,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "comprehensive",
+            "number": "N20",
+            "Source": "新高考1",
+            "Description": [
+                {
+                    "Qu": "20. 设等差数列 {a_n} 的公差为 d，且 d > 1。令 b_n = (n^2 + n) / a_n，记 S_n, T_n 分别为数列 {a_n}, {b_n} 的前 n 项和。\n(1) 若 3a_2 = 3a_1 + a_3, S_3 + T_3 = 21，求 {a_n} 的通项公式；\n(2) 若 {b_n} 为等差数列，且 S_99 - T_99 = 99，求 d。"
+                    
+                }
+            ],
+            "An": "(1) a_n = 3n\n(2) d = 51 / 50\n【解析】\n【分析】(1) 根据等差数列的通项公式建立方程求解即可；\n(2) 由等差数列性质知，99a_50 - 99b_50 = 99，即 a_50 - b_50 = 1，\n∴ a_50 - a_50 / a_50 = 1，即 a_50^2 - a_50 - 2550 = 0，解得 a_50 = 51 或 a_50 = -50（舍去）\n当 a_1 = 2d 时，a_50 = a_1 + 49d = 51d = 51，解得 d = 1，与 d > 1 矛盾，无解；\n当 a_1 = d 时，a_50 = a_1 + 49d = 50d = 51，解得 d = 51 / 50。\n综上，d = 51 / 50。"
+        },
+        {
+            "id": 109,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "choice",
+            "number": "N1",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "在复平面内，\\(\\frac{1}{3i} - \\frac{3i}{1}\\) 对应的点位于（ ）."
+                   
+                }
+            ],
+            "An": "A"
+        },
+        {
+            "id": 110,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "choice",
+            "number": "N4",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "若\\(\\sin(2\\alpha) = \\frac{1}{3}\\), \\(\\cos(2\\alpha) = \\frac{4}{5}\\)，则\\(\\sin(2\\alpha + \\frac{\\pi}{6})\\) 为（ ）."
+                   
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 111,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "choice",
+            "number": "N10",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知某学校为了解学生参加体育运动的情况，用比例分配的分层随机抽样方法作抽样调查，拟从初中部和高中部两层共抽取60名学生，已知该校初中部和高中部分别有400名和200名学生，则不同的抽样结果共有（ ）."
+                   
+                }
+            ],
+            "An": "D"
+        },
+        {
+            "id": 112,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "choice",
+            "number": "N8",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "记\\(nS\\)为等比数列\\(\\{a_n\\}\\)的前\\(n\\)项和，若\\(S_4 = -\\frac{5}{4}\\), \\(S_6 = -\\frac{21}{2}\\)，则\\(S_8\\)为（ ）."
+                   
+                }
+            ],
+            "An": "C"
+        },
+        {
+            "id": 113,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "gap",
+            "number": "N13",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知向量\\(\\vec{a}\\), \\(\\vec{b}\\)满足\\(3\\vec{a} - \\vec{b} = \\vec{0}\\), \\(2\\vec{a} + \\vec{b} = \\vec{0}\\)，则\\(\\vec{b}\\)为（ ）."
+                   
+                }
+            ],
+            "An": "3"
+        },
+        {
+            "id": 114,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "gap",
+            "number": "N14",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "底面边长为4的正四棱锥被平行于其底面的平面所截，截去一个底面边长为2，高为3的正四棱锥，所得棱台的体积为（ ）."
+                
+                }
+            ],
+            "An": "28"
+        },
+        {
+            "id": 115,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "gap",
+            "number": "N15",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知直线\\(l: x = 1\\)与\\(\\frac{x^2}{4} + \\frac{y^2}{3} = 1\\)交于A，B两点，写出满足\\(S_{\\triangle ABC} = \\frac{8}{5}\\)的\\(m\\)的一个值（ ）."
+                }
+            ],
+            "An": "2"
+        },
+        {
+            "id": 116,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "gap",
+            "number": "N16",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "已知函数\\(f(x) = \\sin(wx)\\)，如图A，B是直线\\(y = 2\\)与曲线\\(y = f(x)\\)的两个交点，若\\(\\pi/6 = AB\\)，则\\(f(\\pi)\\)为（ ）."
+                }  
+            ],
+            "An": "-3/2"
+        },
+        {
+            "id": 117,
+            "year": 2023,
+            "difficulty": "ez",
+            "type": "comprehensive",
+            "number": "N17",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "记\\(ABC\\)的内角\\(A\\)，\\(B\\)，\\(C\\)的对边分别为\\(a\\)，\\(b\\)，\\(c\\)，已知\\(ABC\\)的面积为3，\\(D\\)为\\(BC\\)中点，且\\(AD = 1\\)。（1）若\\(\\angle ADC = \\frac{2\\pi}{3}\\)，求\\(\\tan B\\)；（2）若\\(b^2 + c^2 = 8\\)，求\\(b\\)，\\(c\\)。"
+                    
+                }
+            ],
+            "An": "(1) \\(\\frac{3}{5}\\)；(2) \\(b = 2\\)，\\(c = 2\\)"
+        },
+        {
+            "id": 118,
+            "year": 2023,
+            "difficulty": "av",
+            "type": "comprehensive",
+            "number": "N18",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "22. （1）证明：当0 < x < 1时，x - x² < sin x < x；\n（2）已知函数 f(x) = cos(ax) - ln(1 - x²)，若 x = 0是 f(x)的极大值点，求 a的取值范围。"
+                }
+            ],
+            "An": "【答案】（1）证明见详解 （2）（-∞, -√2）∪（√2, +∞）\n【解析】\n【分析】（1）分别构建 F(x) = x - sin x, x ∈ (0,1)，G(x) = x² - x + sin x, x ∈ (0,1)，求导，利用导数判断原函数的单调性，进而可得结果；\n（2）根据题意结合偶函数的性质可知只需要研究 f(x) 在 (0,1)上的单调性，求导，分类讨论 0 < a² < 2 和 a² ≥ 2，结合（1）中的结论放缩，根据极大值的定义分析求解。\n【详解】（1）构建 F(x) = x - sin x, x ∈ (0,1)，则 F'(x) = 1 - cos x > 0 对 ∀x ∈ (0,1)恒成立，\n则 F(x)在 (0,1)上单调递增，可得 F(x) > F(0) = 0，\n2.当 a² ≥ 2时，利用 x - x² < sin x, x ∈ (0,1)，换元缩。"
+        },
+        {
+            "id": 119,
+            "year": 2023,
+            "difficulty": "me",
+            "type": "comprehensive",
+            "number": "N21",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "21. 已知双曲线 C 的中心为坐标原点，左焦点为 (-2√5, 0)，离心率为 √5。\n(1) 求 C 的方程；\n(2) 记 C 的左、右顶点分别为 A1, A2，过点 (-4,0) 的直线与 C 的左支交于 M, N 两点，M 在第二象限，直线 MA1 与 NA2 交于点 P，证明点 P 在定直线 x = -1 上。"
+                }
+            ],
+            "An": "(1) x²/4 - y²/16 = 1\n(2) 证明见解析。\n【解析】\n【分析】(1) 由题意求得 a, b 的值即可确定双曲线方程；\n(2) 设出直线方程，与双曲线方程联立，然后由点的坐标分别写出直线 MA1 与 NA2 的方程，联立直线方程，消去 y，结合韦达定理计算可得 x = -1，即交点的横坐标为定值，据此可证明点 P 在定直线 x = -1 上。\n【小问1详解】\n双曲线方程为 x²/a² - y²/b² = 1 (a > 0, b > 0)，由焦点坐标可知 c = 2√5，\n则 e = c/a = √5 可得 a = 2，b = √(c² - a²) = 4。\n双曲线方程为 x²/4 - y²/16 = 1。\n【小问2详解】\n由(1)可得 A1(-2,0), A2(2,0)，设 M(x1, y1), N(x2, y2)，\n显然直线的斜率不为 0，所以设直线 MN 的方程为 x = my - 4，且 -1/2 < m < 1/2，\n与 x²/4 - y²/16 = 1 联立可得 (4m² - 1)y² - 32my + 48 = 0，\n且 Δ = 64(4m² + 3) > 0，\n则 y1 + y2 = 32m / 4m² - 1, y1y2 = 48 / 4m² - 1，\n直线 MA1 的方程为 y = (y1 / x1 + 2)(x + 2)，直线 NA2 的方程为 y = (y2 / x2 - 2)(x - 2)，\n联立直线 MA1 与直线 NA2 的方程可得：\nx + 2 = y1(x + 2) / (my1 - 2) = (my2 - 2)(x - 2) / (my1 - 2)，\nx - 2 = y1(x - 2) / (my2 - 6) = (my2 - 6) / (my1 - 2)，\nm - 4m² - 1 - 2 - 32m + 2y1 = 4m² - 1 + 2y1 = - 1，\n- 4m² - 48 / 4m² - 1 - 6y1 = 1，\n由 x + 2 = - 1 可得 x - 2 = - 1，即 xP = -1。"
+        },
+        {
+            "id": 120,
+            "year": 2023,
+            "difficulty": "ha",
+            "type": "comprehensive",
+            "number": "N22",
+            "Source": "新高考2",
+            "Description": [
+                {
+                    "Qu": "22. （1）证明：当0 < x < 1时，x - x² < sin x < x；\n（2）已知函数 f(x) = cos(ax) - ln(1 - x²)，若 x = 0 是 f(x) 的极大值点，求 a 的取值范围。\n"
+                }
+            ],
+            "An": "（1）证明见详解 （2）(-∞, -√2) ∪ (√2, +∞)\n【解析】\n【分析】（1）分别构建 F(x) = x - sin x, x ∈ (0,1)，G(x) = x² - x + sin x, x ∈ (0,1)，求导，利用导数判断原函数的单调性，进而可得结果；\n（2）根据题意结合偶函数的性质可知只需要研究 f(x) 在 (0,1) 上的单调性，求导，分类讨论 0 < a² < 2 和 a² ≥ 2，结合（1）中的结论放缩，根据极大值的定义分析求解。\n【详解】（1）构建 F(x) = x - sin x, x ∈ (0,1)，则 F'(x) = 1 - cos x > 0 对 ∀x ∈ (0,1) 恒成立，\n则 F(x) 在 (0,1) 上单调递增，可得 F(x) > F(0) = 0，\n2.当 a² ≥ 2时，利用 x - x² < sin x, x ∈ (0,1)，换元放缩。"
+        }
+    
+
     ]
+
+
 }
