@@ -177,7 +177,7 @@ def hunyuan2(input_json, output_json):
             json.dump(results, f, ensure_ascii=False, indent=4)
 
 input = 'question_example.json'
-output_1 = 'hunyuan_only_answers_example.json'
-output_2 = "hunyuan_different_answers_example.json"
+output_1 = 'hunyuan_only_answers.json'
+output_2 = "hunyuan_different_answers.json"
 hunyuan1(input, output_1)
 hunyuan2(input, output_2)

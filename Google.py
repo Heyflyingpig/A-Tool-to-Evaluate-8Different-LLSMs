@@ -118,8 +118,8 @@ def google2(input_json_path, output_json_path):
 # 主程序执行
 if __name__ == "__main__":
     input_path = 'question_example.json'
-    output_path = 'google_only_answers_example.json'
-    output_path_2 = "google_different_answers_example.json"
+    output_path = 'google_only_answers.json'
+    output_path_2 = "google_different_answers.json"
     
     google1(input_path, output_path)
     google2(input_path, output_path_2)

@@ -118,8 +118,8 @@ def zhipu2(input_json_path, output_json_path):
 
 # 调用函数
 input_path = 'question_example.json'
-output_path = 'zhipu_only_answers_example.json'
-output_path_2 = "zhipu_different_answers_example.json"
+output_path = 'zhipu_only_answers.json'
+output_path_2 = "zhipu_different_answers.json"
 
 zhipu1(input_path, output_path)
 zhipu2(input_path, output_path_2)

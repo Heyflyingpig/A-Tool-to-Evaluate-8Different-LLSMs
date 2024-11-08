@@ -153,7 +153,7 @@ def doubao_2(input_json_path, output_json_path):
 
 
 input_path = 'question_example.json'
-output_path = 'Doubao_only_answers_example.json'
+output_path = 'Doubao_only_answers_example'
 #doubao_1(input_path, output_path)
-output_path_2 = "Doubao_different_answers_example.json"
+output_path_2 = "Doubao_different_answers_example"
 doubao_2(input_path, output_path_2)

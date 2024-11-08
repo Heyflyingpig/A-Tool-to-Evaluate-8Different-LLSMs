@@ -118,8 +118,8 @@ def aliyun2(input_json_path, output_json_path):
 # 主程序执行
 if __name__ == "__main__":
     input_path = 'question_example.json'
-    output_path = 'aliyun_only_answers_example.json'
-    output_path_2 = "aliyun_different_answers_example.json"
+    output_path = 'aliyun_only_answers.json'
+    output_path_2 = "aliyun_different_answers.json"
     
     aliyun1(input_path, output_path)
     aliyun2(input_path, output_path_2)

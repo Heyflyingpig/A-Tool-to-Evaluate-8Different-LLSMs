@@ -144,9 +144,9 @@ def baidu2(input_json_path, output_json_path):
     with open(output_json_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=4)
 
-input_path = 'question_example.json'
-output_path = 'baidu_only_answers_example.json'
+input_path = 'question_data.json'
+output_path = 'baidu_only_answers_example_1.json'
 baidu1(input_path, output_path)
-output_path_2 = "baidu_different_answers_example.json"
+output_path_2 = "baidu_different_answers_example_1.json"
 baidu2(input_path, output_path_2)
 
